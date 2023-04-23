@@ -17,6 +17,7 @@ const HomePage: NextPage = () => {
     <>
       <Navbar />
       <Home />
+      <Feed />
     </>
   );
 };

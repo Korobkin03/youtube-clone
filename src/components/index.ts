@@ -6,5 +6,6 @@ import Navbar from "./Navbar";
 import SearchFeed from "./SearchFeed";
 import VideoDetail from "./VideoDetail";
 import SearchBar from "./SearchBar";
+import Sidebar from './Sidebar'
 
-export { ChannelDetail, Feed, Navbar, SearchFeed, VideoDetail, SearchBar };
+export { ChannelDetail, Feed, Navbar, SearchFeed, VideoDetail, SearchBar, Sidebar };
