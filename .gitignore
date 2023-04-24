@@ -4,6 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
+/.vscode
+/next.config.js
+/postcss.config.js
+/prettier.config.js
+/tailwind.config.js
+/tsconfig.json
 
 # testing
 /coverage
