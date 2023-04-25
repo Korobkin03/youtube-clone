@@ -19,7 +19,10 @@ const Feed: FC = () => {
   return (
     <Stack className="md:flex-row flex-column ">
       <Box className="h-auto md:h-[92vh] border-r-[1px] border-solid border-[#3d3d3d] px-0 md:px-2">
-        <Sidebar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory}/>
+        <Sidebar
+          selectedCategory={selectedCategory}
+          setSelectedCategory={setSelectedCategory}
+        />
 
         <Typography
           className="flex copyright mt-1.5 text-[#fff] items-center justify-center"
